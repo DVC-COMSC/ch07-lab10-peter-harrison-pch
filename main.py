@@ -4,8 +4,8 @@
 # use nested for loops
 
 def switchem(lst1, index1, index2):
-    var1 = lst1.pop(index1)
     var2 = lst1.pop(index2)
+    var1 = lst1.pop(index1)
     lst1.insert(index1, var2)
     lst1.insert(index2, var1)
 
